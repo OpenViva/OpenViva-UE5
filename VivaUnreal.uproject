@@ -3,6 +3,17 @@
 	"EngineAssociation": "5.1",
 	"Category": "",
 	"Description": "",
+	"Modules": [
+		{
+			"Name": "VivaUnreal",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine",
+				"CoreUObject"
+			]
+		}
+	],
 	"Plugins": [
 		{
 			"Name": "ResonanceAudio",
