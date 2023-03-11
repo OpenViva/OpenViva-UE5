@@ -24,6 +24,7 @@ We are always looking for more developers to join our team and help us improve t
 
 - Git LFS (Large file storage)
 - Unreal Engine 5.1.1
+- Visual Studio 2022
 
 ## Copyrights
 
