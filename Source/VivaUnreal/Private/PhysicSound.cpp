@@ -30,7 +30,7 @@ void UPhysicSound::TickComponent(float DeltaTime, ELevelTick TickType, FActorCom
 {
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
 	// ...
-	UTools::Log("Dubscr is a biatch");
+	UTools::Log("");
 	TestVariable = 0;
 }
 

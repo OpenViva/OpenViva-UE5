@@ -20,4 +20,9 @@ public:
 	static void LogWarning(FString message, float length = 5);
 
 	static void Log(FString message, float length = 5);
+
+	static float EaseInOutQuad(float t);
+
+	static float GetSide(FVector p, AActor* reference);
+	
 };
