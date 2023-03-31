@@ -48,4 +48,4 @@ Now, most people would be tempted to click the bright green code button, and you
 
 ## Copyrights
 
-In all seriousness, this repository is our own reimagining of Viva Project, done in Unreal Engine 5. We believe this is a game that should be made and run by the community, for the community. This is why OpenViva is released under the AGPLv3 liscense, as to ensure everyone gives back to the community.
+In all seriousness, this repository is our own reimagining of Viva Project, done in Unreal Engine 5. We believe this is a game that should be made and run by the community, for the community. This is why OpenViva is released under the AGPLv3 license, as to ensure everyone gives back to the community.
