@@ -5,26 +5,86 @@
 #include "CoreMinimal.h"
 #include "Components/ActorComponent.h"
 #include "PhysicSound.generated.h"
+#include <Engine/DataTable.h>
 
+class USoundCue;
 
-UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
+USTRUCT(BlueprintType)
+struct FPhysicSoundSettings
+{
+
+        UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Physics Sound")
+        float HardMinVel;
+
+    UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Physics Sound")
+        float SoftMinVel;
+
+    UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Physics Sound")
+        float SoftMinPitch;
+
+    UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Physics Sound")
+        float SoftMaxPitch;
+
+    UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Physics Sound")
+        float DragMinVel;
+
+    UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Physics Sound")
+        float DragMaxVel;
+
+    UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Physics Sound")
+        float DragMinPitch;
+
+    UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Physics Sound")
+        float DragMaxPitch;
+
+    UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Physics Sound")
+        float DragMaxVolumeVel;
+};
+
+UCLASS(ClassGroup = (Custom), meta = (BlueprintSpawnableComponent))
 class VIVAUNREAL_API UPhysicSound : public UActorComponent
 {
-	GENERATED_BODY()
 
-public:	
-	// Sets default values for this component's properties
-	UPhysicSound();
+public:
+    UPhysicSound();
 
 protected:
-	// Called when the game starts
-	virtual void BeginPlay() override;
+    virtual void BeginPlay() override;
 
-public:	
-	// Called every frame
-	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
+    UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Physics Sound")
+        USoundCue* CollisionSoundsSoft;
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Test")
-	float TestVariable = 5;
-		
+    UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Physics Sound")
+        USoundCue* CollisionSoundsHard;
+
+    UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Physics Sound")
+        TArray<UPrimitiveComponent*> IgnoreSoundsFrom;
+
+    UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Physics Sound")
+        USoundCue* DragSoundLoop;
+
+    UPROPERTY(VisibleDefaultsOnly, BlueprintReadOnly, Category = "Physics Sound")
+        UPrimitiveComponent* RigidBody;
+
+    UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Physics Sound")
+        UDataTable* PhysicSoundSettingsDataTable;
+
+    UFUNCTION()
+        void OnCollisionEnter(FHitResult Hit);
+
+    UFUNCTION()
+        void OnCollisionStay(FHitResult Hit);
+
+    UFUNCTION()
+        void Drag();
+
+private:
+    FPhysicSoundSettings Settings;
+    float LastCollisionSoundTime;
+    FTimerHandle DragTimerHandle;
+    bool IsDragging;
+    bool PlaySounds;
+
+    // Omitted "dragCoroutine" as we are using a Timer instead
+
 };
