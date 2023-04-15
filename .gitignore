@@ -17,7 +17,6 @@ PBGet/*-*
 # Compiled Dynamic libraries
 *.so
 *.dylib
-*.dll
 
 # Fortran module files
 *.mod
@@ -30,9 +29,6 @@ PBGet/*-*
 
 # Incremental link
 *.ilk
-
-# Debugging
-*.pdb
 
 # Executables
 *.out
