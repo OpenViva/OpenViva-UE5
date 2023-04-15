@@ -1,0 +1,12 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-SaveExtension.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"E:\Unreal\VivaUnreal\Intermediate\Build\Win64\VivaUnrealEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_0.h.obj"
+"E:\Unreal\VivaUnreal\Plugins\SaveExtension\Intermediate\Build\Win64\UnrealEditor\Development\SaveExtension\Module.SaveExtension.cpp.obj"
+"E:\Unreal\VivaUnreal\Plugins\SaveExtension\Intermediate\Build\Win64\UnrealEditor\Development\SaveExtension\Default.rc2.res"
+/OUT:"E:\Unreal\VivaUnreal\Plugins\SaveExtension\Intermediate\Build\Win64\UnrealEditor\Development\SaveExtension\UnrealEditor-SaveExtension.lib"

@@ -1,0 +1,9 @@
+{
+	"BuildId": "23058290",
+	"Modules": 
+	{
+		"SaveExtension": "UnrealEditor-SaveExtension.dll",
+		"SaveExtensionEditor": "UnrealEditor-SaveExtensionEditor.dll",
+		"SaveExtensionTest": "UnrealEditor-SaveExtensionTest.dll"
+	}
+}
