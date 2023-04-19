@@ -2,19 +2,20 @@
 
 [![Discord](https://discordapp.com/api/guilds/730428444256632943/widget.png?style=shield)](https://discord.com/invite/w7rFnssghW)
 [![Website](https://img.shields.io/badge/Website-Based-blue)](https://viva-project.org/)
+[![Roadmap](https://img.shields.io/badge/Roadmap-In%20Progress-yellow)](https://github.com/orgs/OpenViva/projects/2)
 [![Releases](https://img.shields.io/github/release/OpenViva/OpenViva-UE5/all.svg?label=Release)](https://github.com/OpenViva/OpenViva-UE5/releases)
-[![License](https://img.shields.io/github/license/OpenViva/OpenViva-UE5.svg?label=Liscense)](https://choosealicense.com/licenses/agpl-3.0/)
+[![License](https://img.shields.io/github/license/OpenViva/OpenViva-UE5.svg?label=License)](https://choosealicense.com/licenses/agpl-3.0/)
 
-OpenViva is the open-source continuation of Project Viva, originally made by [Sir Hal](https://www.patreon.com/sgthale) (Go donate to his amazing work!). OpenViva is a VR and non-VR compatible game where you can interact with your very own stylized AI character! It features advanced AI simulation which can interact and respond to many of your actions in-game dynamicaly through inverse kinematics, complex behavior trees, and over hundreds of different, unique animations! Your character's mood is dynamic and responds to how you treat it, allowing you to play with it, feed it, or just be friends with it. Just like a Tomagachi!
+OpenViva is the open-source continuation of Project Viva, originally made by [Sir Hal](https://www.patreon.com/sgthale) (Go donate to his amazing work!). OpenViva is a VR and non-VR compatible game where you can interact with your very own stylized AI character! It features advanced AI simulation which can interact and respond to many of your actions in-game dynamically through inverse kinematics, complex behavior trees, and over hundreds of different, unique animations! Your character's mood is dynamic and responds to how you treat it, allowing you to play with it, feed it, or just be friends with it. Just like a Tamagotchi!
 
 # Community
-The OpenViva team is a group of techies dedicated to continuing the stupendous Viva Project as a free and open-source game under the name "OpenViva", ultimately with the goal of rebuilding it in Unreal Engine 5. All assets and scripts are available to anyone who wants to download, modify, and tinker around with them. If you have any questions or want to help us, feel free to initiate the following 6 step plan!
+The OpenViva team is a group of techies dedicated to continuing Viva Project as a free and open-source game under the name "OpenViva", ultimately with the goal of rebuilding it in Unreal Engine 5. All assets and scripts are available to anyone who wants to download, modify, and tinker around with them. If you have any questions or want to help us, feel free to initiate the following 6 step plan!
 
 1. [Join our community on Discord](https://discord.com/invite/w7rFnssghW) (we'd love to have you around) and ask for help!
 2. Head on over to the [#help](https://discord.com/channels/730428444256632943/1069409562999914649) channel.
 3. Browse around, maybe someone's had the same question as you!
 4. If you can't find the answer you're looking for, go ahead and click that shiny "New Post" button.
-5. Type in your question, provide some details, then click "Post".
+5. Type in your question, provide some details, click "Post".
 6. Profit! Congratulations, a server member will now stop by and help you out with whatever you need!
 
 # Developers Wanted, Dead or Alive
@@ -25,7 +26,7 @@ But hey, for those one-off additions to the game, feel free to create a PR! We d
 ## Setup
 If you're feeling spicy and want to try your hand in creativity, or just dabble around, here's our trademark *EasyGuide™*!
 
-*The EasyGuide™ (patent pending) assumes you have basic knowledge of Google, and Windows.*
+*The EasyGuide™ (patent pending) assumes you have rudimentary knowledge of Google, Unreal Engine, and Windows.*
 
 ### Prerequisites
 To get your new idea off the ground, you're going to need a couple of things first:
