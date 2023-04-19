@@ -25,7 +25,7 @@ struct FScreenshotSize;
 #endif
 #define SAVEEXTENSION_SaveManager_generated_h
 
-#define FID_Unreal_VivaUnreal_Plugins_SaveExtension_Source_SaveExtension_Public_SaveManager_h_29_DELEGATE \
+#define FID_OpenViva_UE5_Plugins_SaveExtension_Source_SaveExtension_Public_SaveManager_h_29_DELEGATE \
 struct _Script_SaveExtension_eventOnGameSavedMC_Parms \
 { \
 	USlotInfo* SlotInfo; \
@@ -38,7 +38,7 @@ static inline void FOnGameSavedMC_DelegateWrapper(const FMulticastScriptDelegate
 }
 
 
-#define FID_Unreal_VivaUnreal_Plugins_SaveExtension_Source_SaveExtension_Public_SaveManager_h_30_DELEGATE \
+#define FID_OpenViva_UE5_Plugins_SaveExtension_Source_SaveExtension_Public_SaveManager_h_30_DELEGATE \
 struct _Script_SaveExtension_eventOnGameLoadedMC_Parms \
 { \
 	USlotInfo* SlotInfo; \
@@ -51,15 +51,15 @@ static inline void FOnGameLoadedMC_DelegateWrapper(const FMulticastScriptDelegat
 }
 
 
-#define FID_Unreal_VivaUnreal_Plugins_SaveExtension_Source_SaveExtension_Public_SaveManager_h_38_GENERATED_BODY \
+#define FID_OpenViva_UE5_Plugins_SaveExtension_Source_SaveExtension_Public_SaveManager_h_38_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FScreenshotSize_Statics; \
 	SAVEEXTENSION_API static class UScriptStruct* StaticStruct();
 
 
 template<> SAVEEXTENSION_API UScriptStruct* StaticStruct<struct FScreenshotSize>();
 
-#define FID_Unreal_VivaUnreal_Plugins_SaveExtension_Source_SaveExtension_Public_SaveManager_h_57_SPARSE_DATA
-#define FID_Unreal_VivaUnreal_Plugins_SaveExtension_Source_SaveExtension_Public_SaveManager_h_57_RPC_WRAPPERS \
+#define FID_OpenViva_UE5_Plugins_SaveExtension_Source_SaveExtension_Public_SaveManager_h_57_SPARSE_DATA
+#define FID_OpenViva_UE5_Plugins_SaveExtension_Source_SaveExtension_Public_SaveManager_h_57_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execBPLoadSlotFromId); \
 	DECLARE_FUNCTION(execBPSaveSlotToId); \
@@ -92,7 +92,7 @@ template<> SAVEEXTENSION_API UScriptStruct* StaticStruct<struct FScreenshotSize>
 	DECLARE_FUNCTION(execBPSaveSlot);
 
 
-#define FID_Unreal_VivaUnreal_Plugins_SaveExtension_Source_SaveExtension_Public_SaveManager_h_57_RPC_WRAPPERS_NO_PURE_DECLS \
+#define FID_OpenViva_UE5_Plugins_SaveExtension_Source_SaveExtension_Public_SaveManager_h_57_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execBPLoadSlotFromId); \
 	DECLARE_FUNCTION(execBPSaveSlotToId); \
@@ -125,8 +125,8 @@ template<> SAVEEXTENSION_API UScriptStruct* StaticStruct<struct FScreenshotSize>
 	DECLARE_FUNCTION(execBPSaveSlot);
 
 
-#define FID_Unreal_VivaUnreal_Plugins_SaveExtension_Source_SaveExtension_Public_SaveManager_h_57_ACCESSORS
-#define FID_Unreal_VivaUnreal_Plugins_SaveExtension_Source_SaveExtension_Public_SaveManager_h_57_INCLASS_NO_PURE_DECLS \
+#define FID_OpenViva_UE5_Plugins_SaveExtension_Source_SaveExtension_Public_SaveManager_h_57_ACCESSORS
+#define FID_OpenViva_UE5_Plugins_SaveExtension_Source_SaveExtension_Public_SaveManager_h_57_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUSaveManager(); \
 	friend struct Z_Construct_UClass_USaveManager_Statics; \
@@ -135,7 +135,7 @@ public: \
 	DECLARE_SERIALIZER(USaveManager)
 
 
-#define FID_Unreal_VivaUnreal_Plugins_SaveExtension_Source_SaveExtension_Public_SaveManager_h_57_INCLASS \
+#define FID_OpenViva_UE5_Plugins_SaveExtension_Source_SaveExtension_Public_SaveManager_h_57_INCLASS \
 private: \
 	static void StaticRegisterNativesUSaveManager(); \
 	friend struct Z_Construct_UClass_USaveManager_Statics; \
@@ -144,7 +144,7 @@ public: \
 	DECLARE_SERIALIZER(USaveManager)
 
 
-#define FID_Unreal_VivaUnreal_Plugins_SaveExtension_Source_SaveExtension_Public_SaveManager_h_57_STANDARD_CONSTRUCTORS \
+#define FID_OpenViva_UE5_Plugins_SaveExtension_Source_SaveExtension_Public_SaveManager_h_57_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API USaveManager(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(USaveManager) \
@@ -158,7 +158,7 @@ public: \
 	NO_API virtual ~USaveManager();
 
 
-#define FID_Unreal_VivaUnreal_Plugins_SaveExtension_Source_SaveExtension_Public_SaveManager_h_57_ENHANCED_CONSTRUCTORS \
+#define FID_OpenViva_UE5_Plugins_SaveExtension_Source_SaveExtension_Public_SaveManager_h_57_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API USaveManager(USaveManager&&); \
@@ -170,27 +170,27 @@ public: \
 	NO_API virtual ~USaveManager();
 
 
-#define FID_Unreal_VivaUnreal_Plugins_SaveExtension_Source_SaveExtension_Public_SaveManager_h_54_PROLOG
-#define FID_Unreal_VivaUnreal_Plugins_SaveExtension_Source_SaveExtension_Public_SaveManager_h_57_GENERATED_BODY_LEGACY \
+#define FID_OpenViva_UE5_Plugins_SaveExtension_Source_SaveExtension_Public_SaveManager_h_54_PROLOG
+#define FID_OpenViva_UE5_Plugins_SaveExtension_Source_SaveExtension_Public_SaveManager_h_57_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Unreal_VivaUnreal_Plugins_SaveExtension_Source_SaveExtension_Public_SaveManager_h_57_SPARSE_DATA \
-	FID_Unreal_VivaUnreal_Plugins_SaveExtension_Source_SaveExtension_Public_SaveManager_h_57_RPC_WRAPPERS \
-	FID_Unreal_VivaUnreal_Plugins_SaveExtension_Source_SaveExtension_Public_SaveManager_h_57_ACCESSORS \
-	FID_Unreal_VivaUnreal_Plugins_SaveExtension_Source_SaveExtension_Public_SaveManager_h_57_INCLASS \
-	FID_Unreal_VivaUnreal_Plugins_SaveExtension_Source_SaveExtension_Public_SaveManager_h_57_STANDARD_CONSTRUCTORS \
+	FID_OpenViva_UE5_Plugins_SaveExtension_Source_SaveExtension_Public_SaveManager_h_57_SPARSE_DATA \
+	FID_OpenViva_UE5_Plugins_SaveExtension_Source_SaveExtension_Public_SaveManager_h_57_RPC_WRAPPERS \
+	FID_OpenViva_UE5_Plugins_SaveExtension_Source_SaveExtension_Public_SaveManager_h_57_ACCESSORS \
+	FID_OpenViva_UE5_Plugins_SaveExtension_Source_SaveExtension_Public_SaveManager_h_57_INCLASS \
+	FID_OpenViva_UE5_Plugins_SaveExtension_Source_SaveExtension_Public_SaveManager_h_57_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define FID_Unreal_VivaUnreal_Plugins_SaveExtension_Source_SaveExtension_Public_SaveManager_h_57_GENERATED_BODY \
+#define FID_OpenViva_UE5_Plugins_SaveExtension_Source_SaveExtension_Public_SaveManager_h_57_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Unreal_VivaUnreal_Plugins_SaveExtension_Source_SaveExtension_Public_SaveManager_h_57_SPARSE_DATA \
-	FID_Unreal_VivaUnreal_Plugins_SaveExtension_Source_SaveExtension_Public_SaveManager_h_57_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_Unreal_VivaUnreal_Plugins_SaveExtension_Source_SaveExtension_Public_SaveManager_h_57_ACCESSORS \
-	FID_Unreal_VivaUnreal_Plugins_SaveExtension_Source_SaveExtension_Public_SaveManager_h_57_INCLASS_NO_PURE_DECLS \
-	FID_Unreal_VivaUnreal_Plugins_SaveExtension_Source_SaveExtension_Public_SaveManager_h_57_ENHANCED_CONSTRUCTORS \
+	FID_OpenViva_UE5_Plugins_SaveExtension_Source_SaveExtension_Public_SaveManager_h_57_SPARSE_DATA \
+	FID_OpenViva_UE5_Plugins_SaveExtension_Source_SaveExtension_Public_SaveManager_h_57_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_OpenViva_UE5_Plugins_SaveExtension_Source_SaveExtension_Public_SaveManager_h_57_ACCESSORS \
+	FID_OpenViva_UE5_Plugins_SaveExtension_Source_SaveExtension_Public_SaveManager_h_57_INCLASS_NO_PURE_DECLS \
+	FID_OpenViva_UE5_Plugins_SaveExtension_Source_SaveExtension_Public_SaveManager_h_57_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -198,7 +198,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> SAVEEXTENSION_API UClass* StaticClass<class USaveManager>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_Unreal_VivaUnreal_Plugins_SaveExtension_Source_SaveExtension_Public_SaveManager_h
+#define CURRENT_FILE_ID FID_OpenViva_UE5_Plugins_SaveExtension_Source_SaveExtension_Public_SaveManager_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

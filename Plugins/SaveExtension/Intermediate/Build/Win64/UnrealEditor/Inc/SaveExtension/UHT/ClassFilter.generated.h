@@ -14,21 +14,21 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define SAVEEXTENSION_ClassFilter_generated_h
 
-#define FID_Unreal_VivaUnreal_Plugins_SaveExtension_Source_SaveExtension_Public_Misc_ClassFilter_h_14_GENERATED_BODY \
+#define FID_OpenViva_UE5_Plugins_SaveExtension_Source_SaveExtension_Public_Misc_ClassFilter_h_14_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FSEClassFilter_Statics; \
 	static class UScriptStruct* StaticStruct();
 
 
 template<> SAVEEXTENSION_API UScriptStruct* StaticStruct<struct FSEClassFilter>();
 
-#define FID_Unreal_VivaUnreal_Plugins_SaveExtension_Source_SaveExtension_Public_Misc_ClassFilter_h_67_GENERATED_BODY \
+#define FID_OpenViva_UE5_Plugins_SaveExtension_Source_SaveExtension_Public_Misc_ClassFilter_h_67_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FSEActorClassFilter_Statics; \
 	SAVEEXTENSION_API static class UScriptStruct* StaticStruct();
 
 
 template<> SAVEEXTENSION_API UScriptStruct* StaticStruct<struct FSEActorClassFilter>();
 
-#define FID_Unreal_VivaUnreal_Plugins_SaveExtension_Source_SaveExtension_Public_Misc_ClassFilter_h_91_GENERATED_BODY \
+#define FID_OpenViva_UE5_Plugins_SaveExtension_Source_SaveExtension_Public_Misc_ClassFilter_h_91_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FSEComponentClassFilter_Statics; \
 	SAVEEXTENSION_API static class UScriptStruct* StaticStruct();
 
@@ -36,7 +36,7 @@ template<> SAVEEXTENSION_API UScriptStruct* StaticStruct<struct FSEActorClassFil
 template<> SAVEEXTENSION_API UScriptStruct* StaticStruct<struct FSEComponentClassFilter>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_Unreal_VivaUnreal_Plugins_SaveExtension_Source_SaveExtension_Public_Misc_ClassFilter_h
+#define CURRENT_FILE_ID FID_OpenViva_UE5_Plugins_SaveExtension_Source_SaveExtension_Public_Misc_ClassFilter_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

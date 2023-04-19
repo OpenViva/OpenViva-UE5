@@ -14,7 +14,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define SAVEEXTENSION_LevelFilter_generated_h
 
-#define FID_Unreal_VivaUnreal_Plugins_SaveExtension_Source_SaveExtension_Public_LevelFilter_h_18_GENERATED_BODY \
+#define FID_OpenViva_UE5_Plugins_SaveExtension_Source_SaveExtension_Public_LevelFilter_h_18_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FSELevelFilter_Statics; \
 	SAVEEXTENSION_API static class UScriptStruct* StaticStruct();
 
@@ -22,7 +22,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 template<> SAVEEXTENSION_API UScriptStruct* StaticStruct<struct FSELevelFilter>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_Unreal_VivaUnreal_Plugins_SaveExtension_Source_SaveExtension_Public_LevelFilter_h
+#define CURRENT_FILE_ID FID_OpenViva_UE5_Plugins_SaveExtension_Source_SaveExtension_Public_LevelFilter_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

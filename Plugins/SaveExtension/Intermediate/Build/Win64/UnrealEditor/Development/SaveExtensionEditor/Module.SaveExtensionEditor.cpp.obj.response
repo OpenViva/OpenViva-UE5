@@ -1,6 +1,6 @@
-E:\Unreal\VivaUnreal\Plugins\SaveExtension\Intermediate\Build\Win64\UnrealEditor\Development\SaveExtensionEditor\Module.SaveExtensionEditor.cpp
+D:\UnusualNorm\Projects\UnrealEngine\OpenViva-UE5\Plugins\SaveExtension\Intermediate\Build\Win64\UnrealEditor\Development\SaveExtensionEditor\Module.SaveExtensionEditor.cpp
 /I .
-/I E:\Unreal\VivaUnreal\Plugins\SaveExtension\Source\Editor\Private
+/I D:\UnusualNorm\Projects\UnrealEngine\OpenViva-UE5\Plugins\SaveExtension\Source\Editor\Private
 /I ..\Intermediate\Build\Win64\UnrealEditor\Inc\AssetTools\UHT
 /I Developer
 /I Developer\AssetTools\Public
@@ -271,11 +271,11 @@ E:\Unreal\VivaUnreal\Plugins\SaveExtension\Intermediate\Build\Win64\UnrealEditor
 /I Runtime\AIModule\Classes
 /I Developer\Merge\Public
 /I Editor\EditorStyle\Public
-/I E:\Unreal\VivaUnreal\Plugins\SaveExtension\Intermediate\Build\Win64\UnrealEditor\Inc\SaveExtensionEditor\UHT
-/I E:\Unreal\VivaUnreal\Plugins\SaveExtension\Source
-/I E:\Unreal\VivaUnreal\Plugins\SaveExtension\Source\Editor\Public
-/I E:\Unreal\VivaUnreal\Plugins\SaveExtension\Intermediate\Build\Win64\UnrealEditor\Inc\SaveExtension\UHT
-/I E:\Unreal\VivaUnreal\Plugins\SaveExtension\Source\SaveExtension\Public
+/I D:\UnusualNorm\Projects\UnrealEngine\OpenViva-UE5\Plugins\SaveExtension\Intermediate\Build\Win64\UnrealEditor\Inc\SaveExtensionEditor\UHT
+/I D:\UnusualNorm\Projects\UnrealEngine\OpenViva-UE5\Plugins\SaveExtension\Source
+/I D:\UnusualNorm\Projects\UnrealEngine\OpenViva-UE5\Plugins\SaveExtension\Source\Editor\Public
+/I D:\UnusualNorm\Projects\UnrealEngine\OpenViva-UE5\Plugins\SaveExtension\Intermediate\Build\Win64\UnrealEditor\Inc\SaveExtension\UHT
+/I D:\UnusualNorm\Projects\UnrealEngine\OpenViva-UE5\Plugins\SaveExtension\Source\SaveExtension\Public
 /I ..\Intermediate\Build\Win64\UnrealEditor\Inc\Foliage\UHT
 /I Runtime\Foliage\Public
 /external:W0
@@ -283,16 +283,16 @@ E:\Unreal\VivaUnreal\Plugins\SaveExtension\Intermediate\Build\Win64\UnrealEditor
 /external:I ThirdParty\LibTiff\Source\Win64
 /external:I ThirdParty\LibTiff\Source
 /external:I "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\INCLUDE"
-/external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"
-/external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"
-/external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"
-/external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"
-/FI"E:\Unreal\VivaUnreal\Intermediate\Build\Win64\VivaUnrealEditor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.InclOrderUnreal5_0.h"
-/FI"E:\Unreal\VivaUnreal\Plugins\SaveExtension\Intermediate\Build\Win64\UnrealEditor\Development\SaveExtensionEditor\Definitions.SaveExtensionEditor.h"
-/Yu"E:\Unreal\VivaUnreal\Intermediate\Build\Win64\VivaUnrealEditor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.InclOrderUnreal5_0.h"
-/Fp"E:\Unreal\VivaUnreal\Intermediate\Build\Win64\VivaUnrealEditor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.InclOrderUnreal5_0.h.pch"
-/Fo"E:\Unreal\VivaUnreal\Plugins\SaveExtension\Intermediate\Build\Win64\UnrealEditor\Development\SaveExtensionEditor\Module.SaveExtensionEditor.cpp.obj"
-/sourceDependencies E:\Unreal\VivaUnreal\Plugins\SaveExtension\Intermediate\Build\Win64\UnrealEditor\Development\SaveExtensionEditor\Module.SaveExtensionEditor.cpp.dep.json
+/external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt"
+/external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\shared"
+/external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\um"
+/external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\winrt"
+/FI"D:\UnusualNorm\Projects\UnrealEngine\OpenViva-UE5\Intermediate\Build\Win64\VivaUnrealEditor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.InclOrderUnreal5_0.h"
+/FI"D:\UnusualNorm\Projects\UnrealEngine\OpenViva-UE5\Plugins\SaveExtension\Intermediate\Build\Win64\UnrealEditor\Development\SaveExtensionEditor\Definitions.SaveExtensionEditor.h"
+/Yu"D:\UnusualNorm\Projects\UnrealEngine\OpenViva-UE5\Intermediate\Build\Win64\VivaUnrealEditor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.InclOrderUnreal5_0.h"
+/Fp"D:\UnusualNorm\Projects\UnrealEngine\OpenViva-UE5\Intermediate\Build\Win64\VivaUnrealEditor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.InclOrderUnreal5_0.h.pch"
+/Fo"D:\UnusualNorm\Projects\UnrealEngine\OpenViva-UE5\Plugins\SaveExtension\Intermediate\Build\Win64\UnrealEditor\Development\SaveExtensionEditor\Module.SaveExtensionEditor.cpp.obj"
+/sourceDependencies D:\UnusualNorm\Projects\UnrealEngine\OpenViva-UE5\Plugins\SaveExtension\Intermediate\Build\Win64\UnrealEditor\Development\SaveExtensionEditor\Module.SaveExtensionEditor.cpp.dep.json
 /Zc:inline
 /nologo
 /Oi

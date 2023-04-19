@@ -6,7 +6,7 @@
 /NAME:"UnrealEditor-SaveExtensionTest.dll"
 /IGNORE:4221
 /NODEFAULTLIB
-"E:\Unreal\VivaUnreal\Intermediate\Build\Win64\VivaUnrealEditor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.InclOrderUnreal5_0.h.obj"
-"E:\Unreal\VivaUnreal\Plugins\SaveExtension\Intermediate\Build\Win64\UnrealEditor\Development\SaveExtensionTest\Module.SaveExtensionTest.cpp.obj"
-"E:\Unreal\VivaUnreal\Plugins\SaveExtension\Intermediate\Build\Win64\UnrealEditor\Development\SaveExtensionTest\Default.rc2.res"
-/OUT:"E:\Unreal\VivaUnreal\Plugins\SaveExtension\Intermediate\Build\Win64\UnrealEditor\Development\SaveExtensionTest\UnrealEditor-SaveExtensionTest.lib"
+"D:\UnusualNorm\Projects\UnrealEngine\OpenViva-UE5\Intermediate\Build\Win64\VivaUnrealEditor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.InclOrderUnreal5_0.h.obj"
+"D:\UnusualNorm\Projects\UnrealEngine\OpenViva-UE5\Plugins\SaveExtension\Intermediate\Build\Win64\UnrealEditor\Development\SaveExtensionTest\Module.SaveExtensionTest.cpp.obj"
+"D:\UnusualNorm\Projects\UnrealEngine\OpenViva-UE5\Plugins\SaveExtension\Intermediate\Build\Win64\UnrealEditor\Development\SaveExtensionTest\Default.rc2.res"
+/OUT:"D:\UnusualNorm\Projects\UnrealEngine\OpenViva-UE5\Plugins\SaveExtension\Intermediate\Build\Win64\UnrealEditor\Development\SaveExtensionTest\UnrealEditor-SaveExtensionTest.lib"

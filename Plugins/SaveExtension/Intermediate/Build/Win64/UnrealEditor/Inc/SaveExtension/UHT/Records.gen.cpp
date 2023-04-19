@@ -250,18 +250,18 @@ template<> SAVEEXTENSION_API UScriptStruct* StaticStruct<FActorRecord>()
 		}
 		return Z_Registration_Info_UScriptStruct_ActorRecord.InnerSingleton;
 	}
-	struct Z_CompiledInDeferFile_FID_Unreal_VivaUnreal_Plugins_SaveExtension_Source_SaveExtension_Public_Serialization_Records_h_Statics
+	struct Z_CompiledInDeferFile_FID_OpenViva_UE5_Plugins_SaveExtension_Source_SaveExtension_Public_Serialization_Records_h_Statics
 	{
 		static const FStructRegisterCompiledInInfo ScriptStructInfo[];
 	};
-	const FStructRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal_VivaUnreal_Plugins_SaveExtension_Source_SaveExtension_Public_Serialization_Records_h_Statics::ScriptStructInfo[] = {
+	const FStructRegisterCompiledInInfo Z_CompiledInDeferFile_FID_OpenViva_UE5_Plugins_SaveExtension_Source_SaveExtension_Public_Serialization_Records_h_Statics::ScriptStructInfo[] = {
 		{ FBaseRecord::StaticStruct, Z_Construct_UScriptStruct_FBaseRecord_Statics::NewStructOps, TEXT("BaseRecord"), &Z_Registration_Info_UScriptStruct_BaseRecord, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FBaseRecord), 4183914130U) },
 		{ FObjectRecord::StaticStruct, Z_Construct_UScriptStruct_FObjectRecord_Statics::NewStructOps, TEXT("ObjectRecord"), &Z_Registration_Info_UScriptStruct_ObjectRecord, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FObjectRecord), 2006768193U) },
 		{ FComponentRecord::StaticStruct, Z_Construct_UScriptStruct_FComponentRecord_Statics::NewStructOps, TEXT("ComponentRecord"), &Z_Registration_Info_UScriptStruct_ComponentRecord, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FComponentRecord), 23298334U) },
 		{ FActorRecord::StaticStruct, Z_Construct_UScriptStruct_FActorRecord_Statics::NewStructOps, TEXT("ActorRecord"), &Z_Registration_Info_UScriptStruct_ActorRecord, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FActorRecord), 2071277832U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal_VivaUnreal_Plugins_SaveExtension_Source_SaveExtension_Public_Serialization_Records_h_3531360726(TEXT("/Script/SaveExtension"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_OpenViva_UE5_Plugins_SaveExtension_Source_SaveExtension_Public_Serialization_Records_h_3531360726(TEXT("/Script/SaveExtension"),
 		nullptr, 0,
-		Z_CompiledInDeferFile_FID_Unreal_VivaUnreal_Plugins_SaveExtension_Source_SaveExtension_Public_Serialization_Records_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Unreal_VivaUnreal_Plugins_SaveExtension_Source_SaveExtension_Public_Serialization_Records_h_Statics::ScriptStructInfo),
+		Z_CompiledInDeferFile_FID_OpenViva_UE5_Plugins_SaveExtension_Source_SaveExtension_Public_Serialization_Records_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_OpenViva_UE5_Plugins_SaveExtension_Source_SaveExtension_Public_Serialization_Records_h_Statics::ScriptStructInfo),
 		nullptr, 0);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
