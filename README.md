@@ -34,6 +34,8 @@ To get your new idea off the ground, you're going to need a couple of things fir
 - [Unreal Engine 5.1.1](https://www.unrealengine.com/en-US/download)
 - [Visual Studio 2022](https://visualstudio.microsoft.com/downloads/)
 
+# **⚠️PLEASE DON'T CLONE THE REPOSITORY IF YOU ARE NOT GOING TO COMMIT TO IT⚠️**
+
 ### Downloading
 Now, most people would be tempted to click the bright green code button, and you're right!
 1. Click on the bright green "Code" button.
