@@ -5,6 +5,7 @@
 # Unreal Engine file types.
 *.uasset lock
 *.umap lock
+*
 *.locres lfs
 *.locmeta lfs
 # Steam Audio files
@@ -17,7 +18,6 @@
 *.dll lfs
 *.rcc lfs
 # FMOD
-*.bank lfs
 *.wav lfs
 *.mp3 lfs
 *.ogg lfs
