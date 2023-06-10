@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{50a71aad-6d11-4334-8ad1-9e6b961dc5e8}">
+		<property name="assetPath">
+			<value>Music/Beach-Theme.ogg</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>112</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{8c75a171-1edc-4b7b-a5b0-88d5c27f3f13}</destination>
+		</relationship>
+	</object>
+</objects>
