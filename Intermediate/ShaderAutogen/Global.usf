@@ -1,0 +1,54 @@
+    return 1;
+}
+
+float4 GetKernelMeanAndVariance(float2 UV, float4 Range, float2x2 RotationMatrix)
+{
+    float2 TexelSize = View.BufferSizeAndInvSize.zw;
+    float3 Mean = float3(0, 0, 0);
+    float3 Variance = float3(0, 0, 0);
+    float Samples = 0;
+    
+    for (int x = Range.x; x <= Range.y; x++)
+    {
+        for (int y = Range.z; y <= Range.w; y++)
+        {
+            float2 Offset = mul(float2(x, y) * TexelSize, RotationMatrix);
+            float3 PixelColor = SceneTextureLookup(UV + Offset, 14, false).rgb;
+            Mean += PixelColor;
+            Variance += PixelColor * PixelColor;
+            Samples++;
+        }
+    }
+    
+    Mean /= Samples;
+    Variance = Variance / Samples - Mean * Mean;
+    float TotalVariance = Variance.r + Variance.g + Variance.b;
+    return float4(Mean.r, Mean.g, Mean.b, TotalVariance);
+}
+
+float GetPixelAngle(float2 UV)
+{
+    float2 TexelSize = View.BufferSizeAndInvSize.zw;
+    float GradientX = 0;
+    float GradientY = 0;
+    float SobelX[9] = {-1, -2, -1, 0, 0, 0, 1, 2, 1};
+    float SobelY[9] = {-1, 0, 1, -2, 0, 2, -1, 0, 1};
+    int i = 0;
+    
+    for (int x = -1; x <= 1; x++)
+    {
+        for (int y = -1; y <= 1; y++)
+        {
+            // 1
+            float2 Offset = float2(x, y) * TexelSize;
+            float3 PixelColor = SceneTextureLookup(UV + Offset, 14, false).rgb;
+            float PixelValue = dot(PixelColor, float3(0.3,0.59,0.11));
+            
+            // 2
+            GradientX += PixelValue * SobelX[i];
+            GradientY += PixelValue * SobelY[i];
+            i++;
+        }
+    }
+    
+    return atan(GradientY / GradientX);

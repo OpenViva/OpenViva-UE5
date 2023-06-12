@@ -70,6 +70,12 @@ Saved/*
 Intermediate/*
 Plugins/*/Intermediate/*
 
+# USF files arent auto generated so exclude them
+!Intermediate/
+!Intermediate/ShaderAutogen/
+Intermediate/ShaderAutogen/*
+!Intermediate/ShaderAutogen/*.usf
+
 # Cache files for the editor to use
 DerivedDataCache/*
 

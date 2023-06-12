@@ -1,0 +1,33 @@
+float2 UV = GetDefaultSceneTextureUV(Parameters, 14);
+float4 MeanAndVariance[4];
+float4 Range;
+float Angle = GetPixelAngle(UV);
+float2x2 RotationMatrix = float2x2(cos(Angle), -sin(Angle), sin(Angle), cos(Angle));
+
+Range = float4(-XRadius, 0, -YRadius, 0);
+MeanAndVariance[0] = GetKernelMeanAndVariance(UV, Range, RotationMatrix);
+
+Range = float4(0, XRadius, -YRadius, 0);
+MeanAndVariance[1] = GetKernelMeanAndVariance(UV, Range, RotationMatrix);
+
+Range = float4(-XRadius, 0, 0, YRadius);
+MeanAndVariance[2] = GetKernelMeanAndVariance(UV, Range, RotationMatrix);
+
+Range = float4(0, XRadius, 0, YRadius);
+MeanAndVariance[3] = GetKernelMeanAndVariance(UV, Range, RotationMatrix);
+
+// 1
+float3 FinalColor = MeanAndVariance[0].rgb;
+float MinimumVariance = MeanAndVariance[0].a;
+
+// 2
+for (int i = 1; i < 4; i++)
+{
+    if (MeanAndVariance[i].a < MinimumVariance)
+    {
+        FinalColor = MeanAndVariance[i].rgb;
+        MinimumVariance = MeanAndVariance[i].a;
+    }
+}
+
+return FinalColor;
