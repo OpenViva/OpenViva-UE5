@@ -31,7 +31,7 @@ If you're feeling spicy and want to try your hand in creativity, or just dabble 
 ### Prerequisites
 To get your new idea off the ground, you're going to need a couple of things first:
 - [Github Desktop](https://desktop.github.com/)
-- [Unreal Engine 5.1.1](https://www.unrealengine.com/en-US/download)
+- [Unreal Engine 5.2.1](https://www.unrealengine.com/en-US/download)
 - [Visual Studio 2022](https://visualstudio.microsoft.com/downloads/)
 
 # **⚠️PLEASE DON'T CLONE THE REPOSITORY IF YOU ARE NOT GOING TO COMMIT TO IT⚠️**
