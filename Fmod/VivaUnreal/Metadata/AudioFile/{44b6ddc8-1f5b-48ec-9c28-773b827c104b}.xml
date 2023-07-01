@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{44b6ddc8-1f5b-48ec-9c28-773b827c104b}">
+		<property name="assetPath">
+			<value>Ambience/ambMorningOutside.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>35.863333333333337</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{8c75a171-1edc-4b7b-a5b0-88d5c27f3f13}</destination>
+		</relationship>
+	</object>
+</objects>

@@ -61,9 +61,6 @@
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{0d56c75f-6db1-412d-a1cf-f6e7805716ef}">
-		<property name="dopplerEnabled">
-			<value>true</value>
-		</property>
 		<property name="dopplerScale">
 			<value>0</value>
 		</property>
@@ -73,6 +70,9 @@
 		<relationship name="modules">
 			<destination>{725ad1e2-27fc-4aa1-9dde-7aff57f25314}</destination>
 			<destination>{39218fdd-5bd5-4f01-a1e4-c4d48b3b14f4}</destination>
+		</relationship>
+		<relationship name="markers">
+			<destination>{abc17a98-35e0-45f8-9cf7-4e11b1fe6474}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{cfe109de-c69c-4041-a147-47a35c974d3f}">
@@ -120,6 +120,9 @@
 		<property name="length">
 			<value>183.0661224489796</value>
 		</property>
+		<property name="looping">
+			<value>true</value>
+		</property>
 		<property name="playlistMode">
 			<value>1</value>
 		</property>
@@ -140,6 +143,20 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{1fb4d4c0-fb1f-44dd-b1da-ee61b41deca4}" />
+	<object class="LoopRegion" id="{abc17a98-35e0-45f8-9cf7-4e11b1fe6474}">
+		<property name="position">
+			<value>0</value>
+		</property>
+		<property name="length">
+			<value>273.36580994897963</value>
+		</property>
+		<relationship name="timeline">
+			<destination>{6074a807-941f-49d5-964a-bbb055cc6e3a}</destination>
+		</relationship>
+		<relationship name="markerTrack">
+			<destination>{d3cb5b98-23da-43d9-9828-0fe2b446d5fb}</destination>
+		</relationship>
+	</object>
 	<object class="ADSRModulator" id="{a318afe9-55a2-42e4-8b3e-cdc4e4e5cac8}">
 		<property name="nameOfPropertyBeingModulated">
 			<value>volume</value>
