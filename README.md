@@ -8,6 +8,9 @@
 
 OpenViva is the open-source continuation of Project Viva, originally made by [Sir Hal](https://www.patreon.com/sgthale) (Go donate to his amazing work!). OpenViva is a VR and non-VR compatible game where you can interact with your very own stylized AI character! It features advanced AI simulation which can interact and respond to many of your actions in-game dynamically through inverse kinematics, complex behavior trees, and over hundreds of different, unique animations! Your character's mood is dynamic and responds to how you treat it, allowing you to play with it, feed it, or just be friends with it. Just like a Tamagotchi!
 
+# Important Notice
+For the time being, all work on the Unreal Engine 5 port has been halted due to various reasons. We are continuing all work on the Unity version of the game.
+
 # Community
 The OpenViva team is a group of techies dedicated to continuing Viva Project as a free and open-source game under the name "OpenViva", ultimately with the goal of rebuilding it in Unreal Engine 5. All assets and scripts are available to anyone who wants to download, modify, and tinker around with them. If you have any questions or want to help us, feel free to initiate the following 6 step plan!
 
